@@ -1,5 +1,13 @@
 /*
 ================== 
+font import 
+==================
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Noto+Sans+JP:wght@400;700&display=swap");
+
+/*
+================== 
 css variables 
 ==================
 */
@@ -11,8 +19,8 @@ css variables
   --clr-grey-5: #617d98;
   --clr-grey-10: #f1f5fa;
   --clr-white: #fff;
-  --ff-primary: ;
-  --ff-secondary: ;
+  --ff-primary: "Noto Sans JP", sans-serif;
+  --ff-secondary: "Caveat", cursive;
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
