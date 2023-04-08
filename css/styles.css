@@ -1,5 +1,25 @@
 /*
 ================== 
+css variables 
+==================
+*/
+
+:root {
+  --clr-primary: #678e3e;
+  --clr-primary-light: #beedac;
+  --clr-grey-1: #102a42;
+  --clr-grey-5: #617d98;
+  --clr-grey-10: #f1f5fa;
+  --clr-white: #fff;
+  --ff-primary: ;
+  --ff-secondary: ;
+  --transition: all 0.3s linear;
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+}
+
+/*
+================== 
 css reset 
 ==================
 */
