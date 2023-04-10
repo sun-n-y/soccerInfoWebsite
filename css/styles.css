@@ -184,3 +184,23 @@ hero
 .btn-hero {
   padding: 1rem 2rem;
 }
+
+/*
+================== 
+content divider
+==================
+*/
+
+.content-divider {
+  height: 1rem;
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+}
