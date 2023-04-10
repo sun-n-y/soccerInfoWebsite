@@ -118,3 +118,60 @@ p {
     line-height: 1;
   }
 }
+
+/*
+================== 
+other global styles
+==================
+*/
+
+.btn {
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  letter-spacing: var(--spacing);
+  text-transform: uppercase;
+  outline: 0.2rem solid var(--clr-primary-light);
+  outline-offset: 0.3rem;
+  background-color: var(--clr-primary-light);
+  transition: var(--transition);
+}
+
+/*
+================== 
+hero
+==================
+*/
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.478), rgba(0, 0, 0, 0.478)),
+    url(../images/main-soccer-bcg.jpg) center/cover no-repeat;
+  min-height: 100vh;
+  position: relative;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  max-width: 700px;
+}
+
+.hero-content h2 {
+  font-family: var(--ff-secondary);
+  color: var(--clr-white);
+}
+
+.hero-content h1 {
+  font-family: var(--ff-primary);
+  color: var(--clr-white);
+  margin-bottom: 3rem;
+}
+
+.btn-hero:hover {
+  background-color: #047634;
+  color: var(--clr-white);
+  cursor: pointer;
+}
