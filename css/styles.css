@@ -204,3 +204,62 @@ content divider
     violet
   );
 }
+
+/*
+================== 
+skills section
+==================
+*/
+
+.skills-section {
+  background: var(--clr-grey-10);
+}
+.single-skill {
+  text-align: center;
+  padding: 2rem 0;
+  transition: var(--transition);
+}
+
+.skill-content {
+  max-width: 350px;
+  margin: 0 auto;
+  color: var(--clr-grey-5);
+}
+
+.skill-icon {
+  font-size: 2rem;
+  color: var(--clr-primary);
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  transition: var(--transition);
+}
+
+.skill-title {
+  letter-spacing: var(--spacing);
+}
+
+.single-skill:hover {
+  box-shadow: 0px 2px 0px var(--clr-primary);
+  background: var(--clr-white);
+}
+
+.single-skill:hover .skill-icon {
+  transform: translateY(-10px);
+}
+
+@media screen and (min-width: 578px) {
+  .single-skill {
+    float: left;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .single-skill {
+    float: left;
+    width: 25%;
+  }
+  .skill-content {
+    padding: 0 2rem;
+  }
+}
