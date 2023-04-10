@@ -147,6 +147,13 @@ other global styles
   color: var(--clr-white);
 }
 
+.clearfix::after,
+.clearfix::before {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 /*
 ================== 
 hero
@@ -240,7 +247,7 @@ skills section
 
 .single-skill:hover {
   box-shadow: 0px 2px 0px var(--clr-primary);
-  background: var(--clr-white);
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .single-skill:hover .skill-icon {
