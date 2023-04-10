@@ -270,3 +270,66 @@ skills section
     padding: 0 2rem;
   }
 }
+
+/*
+================== 
+about
+==================
+*/
+
+.about-section {
+  max-width: 1170px;
+  padding: 3rem 1.5rem;
+  margin: 0 auto;
+}
+
+.about-info {
+  margin-top: 2rem;
+  display: inline-block;
+}
+
+.about-sub-title {
+  margin-bottom: 0;
+  font-family: var(--ff-secondary);
+  color: var(--clr-primary);
+}
+
+.about-content {
+  color: var(--clr-grey-5);
+  max-width: 450px;
+}
+
+.about-btn {
+  outline: none;
+  background: var(--clr-primary);
+  color: var(--clr-white);
+}
+
+.about-img {
+  max-width: 30rem;
+  overflow: hidden;
+}
+
+.about-img img {
+  border: 10px solid var(--clr-primary);
+  transition: var(--transition);
+}
+
+@media screen and (min-width: 992px) {
+  .about-img {
+    float: left;
+    width: 50%;
+  }
+  .about-info {
+    margin-top: 0;
+    padding-left: 3rem;
+  }
+}
+
+.about-img:hover {
+  opacity: 0.5;
+}
+
+.about-img:hover img {
+  transform: scale(1.2);
+}
