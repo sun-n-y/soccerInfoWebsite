@@ -154,6 +154,12 @@ other global styles
   display: table;
 }
 
+.section-center {
+  max-width: 1170px;
+  padding: 3rem 1.5rem;
+  margin: 0 auto;
+}
+
 /*
 ================== 
 hero
@@ -277,12 +283,6 @@ about
 ==================
 */
 
-.about-section {
-  max-width: 1170px;
-  padding: 3rem 1.5rem;
-  margin: 0 auto;
-}
-
 .about-info {
   margin-top: 2rem;
   display: inline-block;
@@ -332,4 +332,9 @@ about
 
 .about-img:hover img {
   transform: scale(1.2);
+}
+
+.about-btn:hover {
+  background-color: var(--clr-primary-light);
+  color: var(--clr-primary);
 }
