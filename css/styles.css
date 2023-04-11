@@ -338,3 +338,52 @@ about
   background-color: var(--clr-primary-light);
   color: var(--clr-primary);
 }
+
+/*
+================== 
+product
+==================
+*/
+
+.product-btn {
+  margin-bottom: 4rem;
+}
+
+.product-section {
+  background-color: var(--clr-grey-10);
+}
+
+.single-product img {
+  border-radius: var(--radius);
+  height: 20rem;
+  object-fit: cover;
+}
+
+.img-text-1 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+}
+
+.img-text-2 {
+  color: var(--clr-primary);
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 800px) {
+  .single-product {
+    float: left;
+    width: 50%;
+    padding: 1.5rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .single-product {
+    width: 33%;
+  }
+}
+
+@media screen and (min-width: 1120px) {
+}
