@@ -386,4 +386,24 @@ product
 }
 
 @media screen and (min-width: 1120px) {
+  .product-info {
+    float: left;
+    width: 20%;
+    margin-right: 7rem;
+  }
+
+  .single-product {
+    display: inline-block;
+    width: 250px;
+  }
+
+  .single-product img {
+    display: inline-block;
+    width: 200px;
+  }
+
+  .single-product p {
+    width: 200px;
+    display: inline-block;
+  }
 }
