@@ -407,3 +407,66 @@ product
     display: inline-block;
   }
 }
+
+/*
+================== 
+field cards
+==================
+*/
+
+.section-intro {
+  text-align: center;
+}
+
+.section-intro h3 {
+  font-family: var(--ff-secondary);
+  color: var(--clr-primary);
+}
+
+.single-card {
+  margin: 2.5rem 0;
+  background-color: var(--clr-grey-10);
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  height: 20rem;
+  object-fit: cover;
+}
+
+.field-icon {
+  position: absolute;
+  font-size: 3rem;
+  color: var(--clr-primary);
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 40%);
+  background-color: var(--clr-primary-light);
+  padding: 0 0.8rem;
+  border: 0.4rem solid var(--clr-grey-10);
+  border-radius: 50%;
+}
+
+.single-card-text1 {
+  text-align: center;
+  margin-top: 3rem;
+  letter-spacing: var(--spacing);
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.single-card-text2 {
+  text-align: center;
+  padding: 0 2rem;
+  color: var(--clr-grey-5);
+  margin: 0 auto;
+  max-width: 27rem;
+}
+
+.service-btn {
+  outline: none;
+  margin: 2rem auto;
+}
