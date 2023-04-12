@@ -511,3 +511,85 @@ field cards
     margin-left: 2rem;
   }
 }
+
+/*
+================== 
+contact us
+==================
+*/
+
+.contact-us {
+  background: var(--clr-grey-10);
+}
+
+.text1a {
+  color: var(--clr-primary);
+  letter-spacing: var(--spacing);
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}
+
+.text2b {
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.submit-form {
+  background: var(--clr-white);
+  padding: 1rem;
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+}
+
+.submit-form h3 {
+  color: var(--clr-grey-5);
+  text-align: center;
+}
+
+input::placeholder {
+  text-transform: uppercase;
+  font-family: var(--ff-primary);
+  letter-spacing: var(--spacing);
+}
+
+.input {
+  display: block;
+  width: 100%;
+  background-color: var(--clr-grey-10);
+  border: none;
+  margin: 1rem 0;
+  padding: 0.8rem 1rem;
+  border-radius: var(--radius);
+  font-family: var(--ff-primary);
+  text-transform: uppercase;
+  letter-spacing: var(--spacing);
+}
+
+.input-btn {
+  margin: 0;
+  background: var(--clr-primary);
+  color: var(--clr-white);
+  display: block;
+  width: 100%;
+  padding: 0.8rem 1rem;
+  text-transform: uppercase;
+  letter-spacing: var(--spacing);
+  border-style: none;
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  transition: var(--transition);
+}
+
+.input-btn:hover {
+  background: var(--clr-primary-light);
+  color: var(--clr-primary);
+}
+
+@media screen and (min-width: 992px) {
+  .contact-info,
+  .contact-form {
+    float: left;
+    width: 50%;
+  }
+}
