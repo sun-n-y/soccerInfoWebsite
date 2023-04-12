@@ -593,3 +593,36 @@ input::placeholder {
     width: 50%;
   }
 }
+
+/*
+================== 
+footer
+==================
+*/
+
+footer {
+  background: #222;
+  padding: 4rem 0;
+}
+
+.footer-icons {
+  color: var(--clr-white);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.footer-icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+.outro {
+  color: var(--clr-white);
+  letter-spacing: var(--spacing);
+  text-transform: uppercase;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.tea {
+  color: var(--clr-primary);
+}
