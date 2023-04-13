@@ -614,6 +614,7 @@ footer {
 .footer-icon {
   font-size: 1.5rem;
   margin-right: 1rem;
+  color: var(--clr-white);
 }
 .outro {
   color: var(--clr-white);
