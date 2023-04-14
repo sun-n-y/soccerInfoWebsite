@@ -186,18 +186,69 @@ hero
 .hero-content h2 {
   font-family: var(--ff-secondary);
   color: var(--clr-white);
+  animation: hero-h2 5s ease-in-out;
+}
+
+@keyframes hero-h2 {
+  0% {
+    opacity: 0;
+    transform: translateX(1000px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateX(-400px);
+  }
+  75% {
+    opacity: 0.8;
+    transform: translateX(80px);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .hero-content h1 {
   font-family: var(--ff-primary);
   color: var(--clr-white);
   margin-bottom: 3rem;
+  animation: hero-h1 5s ease-in-out;
+}
+
+@keyframes hero-h1 {
+  0% {
+    opacity: 0;
+    transform: translateX(-1000px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateX(400px);
+  }
+  75% {
+    opacity: 0.8;
+    transform: translateX(-80px);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .btn-hero {
   padding: 1rem 2rem;
+  animation: hero-btn 5s ease-in-out;
 }
 
+@keyframes hero-btn {
+  0% {
+    opacity: 0.1;
+    transform: scale(3);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
 /*
 ================== 
 content divider
@@ -642,6 +693,19 @@ nav bar
   z-index: 4;
   cursor: pointer;
   color: var(--clr-primary-light);
+  animation: nav-btn-animation 2s ease infinite;
+}
+
+@keyframes nav-btn-animation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .navbar {
