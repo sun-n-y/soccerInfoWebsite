@@ -22,5 +22,6 @@
 - ### overflow property 
 - ### rem units 
 - ### border radius
+- ### hosted on netlify
 
 [Back to Top](#custom_anchor_name)
